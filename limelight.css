@@ -1,5 +1,5 @@
 .icons {
-    color: chartreuse;
+    color: rgb(29, 255, 29);
     font-size: 20px;
 }
 
@@ -32,7 +32,7 @@
 }
 
 .img>img {
-    width: 1226px;
+    width: 1519px;
 }
 
 .img {
@@ -41,7 +41,7 @@
 
 @media (min-width: 1200px) {
     .container {
-        max-width: 1349px;
+        max-width: 1519px;
     }
 }
 
@@ -86,24 +86,6 @@
     font-size: 50px;
 }
 
-@media only screen and (max-width: 812px) and (min-width: 280px) {
-    .img>img {
-        width: 360px;
-        height: 283px;
-    }
-    .carousel-caption {
-        margin-left: 0px;
-        margin-bottom: 265px;
-    }
-    .icon {
-        margin-top: 0px;
-        margin-left: 87px;
-    }
-    .carousel-caption>h1 {
-        font-size: 30px;
-    }
-}
-
 .about {
     margin-top: 50px;
     padding-top: 125px;
@@ -128,16 +110,6 @@
     font-size: 13px;
 }
 
-.about-img {
-    background-color: rgb(212, 205, 205);
-}
-
-.img2 {
-    z-index: 5;
-    position: relative;
-    width: 390px;
-}
-
 .services {
     justify-content: center;
     margin-top: 50px;
@@ -151,5 +123,138 @@
 }
 
 .service-title>h2 span {
-    color: greenyellow;
+    color: rgb(29, 255, 29);
+}
+
+.margin-0 {
+    margin: 0px 288px;
+    margin-bottom: 100px;
+}
+
+.pad {
+    padding-top: 90px;
+}
+
+.btn {
+    background-color: black;
+    color: white;
+    font-size: 10px;
+    padding: 8px 30px;
+}
+
+.btn:hover {
+    color: white;
+}
+
+.title span {
+    color: rgb(29, 255, 29);
+}
+
+.width-0 {
+    width: 1206px;
+    margin-left: 250px;
+}
+
+.bg {
+    background-color: rgb(212, 205, 205);
+    height: 1100px;
+    margin-bottom: 150px;
+}
+
+.bg-dark {
+    margin-left: 15px;
+}
+
+.margin-1 {
+    margin-left: 44px !important;
+}
+
+.pad-0 {
+    padding-left: 30px;
+}
+
+.margin-left-0 {
+    margin-left: 15px;
+}
+
+.margin-360 {
+    margin-top: 15px;
+}
+
+.width-0 .text-center {
+    margin-top: 70px;
+    color: white;
+}
+
+.width-0 .text-center>p {
+    font-weight: 300;
+}
+
+@media only screen and (max-width: 812px) and (min-width: 280px) {
+    .img>img {
+        width: 360px;
+        height: 283px;
+    }
+    .carousel-caption {
+        margin-left: 0px;
+        margin-bottom: 265px;
+    }
+    .icon {
+        margin-top: 0px;
+        margin-left: 87px;
+    }
+    .carousel-caption>h1 {
+        font-size: 30px;
+    }
+    .about {
+        margin-top: 0px;
+        padding-top: 50px;
+    }
+    .about-img {
+        width: 360px !important;
+    }
+    .img-0 {
+        width: 340px !important;
+    }
+    .service-title {
+        padding-left: 0px !important;
+    }
+    .margin-0 {
+        margin: 0px !important
+    }
+    .margin {
+        margin-bottom: 90px;
+    }
+    .width-0 {
+        width: 340px;
+        margin-left: 0px;
+    }
+    .display {
+        display: none;
+    }
+    .bg-dark {
+        margin-right: 25px;
+    }
+    .margin-left-0 {
+        margin-left: 0px;
+    }
+    .mt {
+        margin-top: 15px;
+    }
+    .btn {
+        margin-bottom: 15px;
+    }
+    .bg {
+        height: 990px;
+        margin-bottom: 75px;
+    }
+}
+
+.about-img {
+    position: relative;
+    width: 390px;
+}
+
+.nav-item>.nav-link:hover {
+    color: rgb(29, 255, 29);
 }
