@@ -258,3 +258,39 @@
 .nav-item>.nav-link:hover {
     color: rgb(29, 255, 29);
 }
+
+.service-title>h2 {
+    margin-right: 80px;
+    text-align: center;
+}
+
+.margin100 {
+    margin-left: 100px;
+}
+
+.margin100 span {
+    color: rgb(29, 255, 29);
+}
+
+.fa-angle-left {
+    margin-top: 150px;
+    margin-left: 200px;
+}
+
+.carousel-control-prev {
+    color: black !important;
+}
+
+.carousel-control-next {
+    margin-right: 815px;
+    margin-top: 140px;
+    color: black !important;
+}
+
+.carousel-control-prev:hover {
+    color: black;
+}
+
+.carousel-control-next:hover {
+    color: black;
+}
