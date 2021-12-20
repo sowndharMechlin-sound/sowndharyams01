@@ -80,10 +80,12 @@
 
 .fa-chevron-circle-left:hover {
     font-size: 50px;
+    color: rgb(29, 255, 29);
 }
 
 .fa-chevron-circle-right:hover {
     font-size: 50px;
+    color: rgb(29, 255, 29);
 }
 
 .about {
@@ -272,25 +274,46 @@
     color: rgb(29, 255, 29);
 }
 
-.fa-angle-left {
-    margin-top: 150px;
-    margin-left: 200px;
+.left.carousel-control {
+    margin-left: 140px;
 }
 
-.carousel-control-prev {
-    color: black !important;
+.fa-angle-left,
+.fa-angle-right {
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    padding-top: 18px;
+    background-color: black;
+    color: white;
+    margin-top: 225px;
 }
 
-.carousel-control-next {
-    margin-right: 815px;
-    margin-top: 140px;
-    color: black !important;
+.fa-angle-left:hover,
+.fa-angle-right:hover {
+    background-color: rgb(29, 255, 29);
 }
 
-.carousel-control-prev:hover {
-    color: black;
+.carousel-inner {
+    width: 772px !important;
 }
 
-.carousel-control-next:hover {
-    color: black;
+.carousel-inner>img {
+    width: 300px;
+}
+
+.image {
+    width: 732px;
+}
+
+#carousel-cap.carousel-caption {
+    color: white;
+    width: 372px;
+    height: 180px;
+    margin-left: 112px;
+    text-align: left !important;
+}
+
+a:hover {
+    text-decoration: none !important;
 }
