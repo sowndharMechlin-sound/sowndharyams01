@@ -30,8 +30,20 @@
         $(document).ready(function() {
             $('.carousel').carousel({
                 interval: 0
-            })
-        })
+            });
+            $('#swapFire').on('click', function() {
+                var $el = $(this),
+                    textNode = "Like";
+                $el.find('span').toggleClass('far fa-heart fas fa-heart');
+
+            });
+            $('#swapFireone').on('click', function() {
+                var $el = $(this),
+                    textNode = "Like";
+                $el.find('span').toggleClass('far fa-heart fas fa-heart');
+
+            });
+        });
     </script>
 
 </head>
@@ -82,21 +94,24 @@
             </nav>
         </div>
     </div>
+    <section>
+        <div class="container img">
+            <img src="file:///C:/Users/Sowndaraya/Downloads/Layer%202.WEBP">
+            <div class="carousel-caption">
+                <h1>Design <br>of Furniture</h1>
+                <p>There are many variations of passages of Lorem Ipsum available</p>
+                <btn class="btn">READ MORE</btn>
 
-    <div class="container img">
-        <img src="file:///C:/Users/Sowndaraya/Downloads/Layer%202.WEBP">
-        <div class="carousel-caption">
-            <h1>Design <br>of Furniture</h1>
-            <p>There are many variations of passages of Lorem Ipsum available</p>
-            <btn class="btn">READ MORE</btn>
 
+                <div class="icon">
+                    <i class="fas fa-chevron-circle-left"></i>
+                    <i class="fas fa-chevron-circle-right"></i>
+                </div>
 
-            <div class="icon">
-                <i class="fas fa-chevron-circle-left"></i>
-                <i class="fas fa-chevron-circle-right"></i>
             </div>
         </div>
-    </div>
+
+    </section>
 
     <section class="about">
         <div class="container">
@@ -206,43 +221,64 @@
             </div>
         </div>
     </section>
-    <section class="container">
+    <section class="container section-padd">
         <div class="row">
-            <div id="control" class="carousel slide" data-ride="carousel">
-                <div class="carousel-inner">
-                    <div class="carousel-item active">
-                        <div class="col-lg-4 col-md-6 col-sm-6 margin100">
-                            <h3>New Ideas <span>Desgin</span></h3>
-
-                            <p>There are many variations of passages of Lorem Ipsum available, but the There are many variations of passages of Lorem Ipsum available but the</p>
-
-                        </div>
+            <div id="control" class="carousel slide carousel-inner" data-ride="carousel">
+                <div class="carousel-item active">
+                    <div class="col-lg-4 col-md-6 col-sm-6 margin100">
+                        <h2>New Ideas <span>Desgin</span></h2>
+                        <p>There are many variations of pas sages of Lorem Ipsum available, but the There are many variations of passages of Lorem Ipsum available but the</p>
                     </div>
-                    <div class="carousel-item">
-                        <div class="col-lg-4 col-md-6 col-sm-6 margin100">
-                            <h3>New Ideas <span>Desgin</span></h3>
-                            <p>There are many variations of passages of Lorem Ipsum available, but the There are many variations of passages of Lorem Ipsum available but the</p>
-                        </div>
-                    </div>
-
-                    <a class="left carousel-control" href="#control" role="button" data-slide="prev">
-                        <i class="fas fa-angle-left" aria-hidden="true"></i>
-
-                    </a>
-                    <a class="right carousel-control" href="#control" role="button" data-slide="next">
-                        <i class="fas fa-angle-right" aria-hidden="true"></i>
-                    </a>
                 </div>
+                <div class="carousel-item">
+                    <div class="col-lg-4 col-md-6 col-sm-6 margin100">
+                        <h2>New Ideas <span>Desgin</span></h2>
+                        <p>There are many variations of pas sages of Lorem Ipsum available, but the There are many variations of passages of Lorem Ipsum available but the</p>
+                    </div>
+                </div>
+                <div class="col-log-4 col-md-8 col-sm-10">
+                    <img class="image" src="C:\Users\Sowndaraya\Downloads\seven.PNG">
+                    <div class="carousel-caption">
+                        <p>There are many variations of passages of Lorem</p>
+                    </div>
+
+                </div>
+
+
+                <a class="carousel-control-prev" href="#control" role="button" data-slide="prev">
+                    <i class="fas fa-angle-left" aria-hidden="true"></i>
+
+                </a>
+                <a class="carousel-control-next" href="#control" role="button" data-slide="next">
+                    <i class="fas fa-angle-right" aria-hidden="true"></i>
+                </a>
+
             </div>
-            <div class="col-lg-4 col-md-8 col-sm-10">
-                <img class="image" src="C:\Users\Sowndaraya\Downloads\seven.PNG">
-                <div id="carousel-cap" class="carousel-caption">
-                    <p>There are many variations of passages of Lorem</p>
-                </div>
+    </section>
+    <section class="container">
+        <div class="title text-center mb-20">
+            <h2>Read Our <span>Latest News</span></h2>
+        </div>
+        <div class="row">
+            <div class="col-lg-4 col-md-6 col-sm-6 ml-1">
+                <img class="image3" src="C:\Users\Sowndaraya\Downloads\eight.PNG">
+                <p class="text-center">Post of:Limlight<br>
+                    <button id="swapFire" class="btn1">Like
+                        <span class="far fa-heart"></span>
+                    </button>
+                </p>
+            </div>
+            <div class="col-lg-4 col-md-6 col-sm-6">
+                <img class="image2" src="C:\Users\Sowndaraya\Downloads\eight.PNG">
+                <p class="text-center">Post of:Limlight<br>
+                    <button id="swapFireone" class="btn1">Like
+                        <span class="far fa-heart"></span>
+                    </button>
+                </p>
             </div>
         </div>
-
     </section>
+
 </body>
 
 </html>

@@ -80,12 +80,10 @@
 
 .fa-chevron-circle-left:hover {
     font-size: 50px;
-    color: rgb(29, 255, 29);
 }
 
 .fa-chevron-circle-right:hover {
     font-size: 50px;
-    color: rgb(29, 255, 29);
 }
 
 .about {
@@ -150,6 +148,7 @@
 
 .title span {
     color: rgb(29, 255, 29);
+    font-weight: bold;
 }
 
 .width-0 {
@@ -274,46 +273,92 @@
     color: rgb(29, 255, 29);
 }
 
-.left.carousel-control {
-    margin-left: 140px;
-}
-
-.fa-angle-left,
-.fa-angle-right {
+.carousel-control-prev {
+    left: 98px;
+    margin-top: 230px;
+    background-color: black;
     width: 50px;
     height: 50px;
-    text-align: center;
-    padding-top: 18px;
-    background-color: black;
-    color: white;
-    margin-top: 225px;
 }
 
-.fa-angle-left:hover,
-.fa-angle-right:hover {
+.carousel-control-next {
+    left: 155px;
+    margin-top: 230px;
+    background-color: black !important;
+    width: 50px;
+    height: 50px;
+}
+
+.carousel-control-prev:hover {
     background-color: rgb(29, 255, 29);
+    color: black;
 }
 
-.carousel-inner {
-    width: 772px !important;
-}
-
-.carousel-inner>img {
-    width: 300px;
+.carousel-control-next:hover {
+    background-color: rgb(29, 255, 29) !important;
+    color: black;
 }
 
 .image {
-    width: 732px;
+    margin-left: 800px;
+    width: 670px !important;
 }
 
-#carousel-cap.carousel-caption {
+#control .carousel-caption {
+    width: 350px;
     color: white;
-    width: 372px;
-    height: 180px;
-    margin-left: 112px;
-    text-align: left !important;
+    height: 175px;
+    margin-left: 756px;
 }
 
-a:hover {
-    text-decoration: none !important;
+.section-padd {
+    margin-bottom: 200px;
+}
+
+.mb-20 {
+    margin-bottom: 40px;
+}
+
+.card>img {
+    width: 516px;
+}
+
+.card {
+    margin-left: 102px;
+    width: 554px;
+    height: 531px;
+}
+
+.ml-0 {
+    margin-left: 250px !important;
+}
+
+.image2 {
+    width: 506px;
+    height: 320px;
+}
+
+.ml-1 {
+    margin-left: 200px !important;
+    height: 500px;
+    padding-left: 0px !important;
+    /* background: linear-gradient(to left, #000000 70%, white 30%); */
+}
+
+.image3 {
+    width: 480px;
+}
+
+#swapFire,
+#swapFireone {
+    background-color: white;
+    border: none;
+    color: black;
+    font-size: 16px;
+    margin-right: 57px;
+}
+
+p>button:focus {
+    outline: none;
+    outline: none;
 }
