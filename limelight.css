@@ -6,7 +6,7 @@
 .header {
     color: black;
     font-size: 50px;
-    font-family: 'Josefin sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
     justify-content: center;
 }
 
@@ -19,8 +19,8 @@
 }
 
 .navbar-nav {
-    font-family: 'Josefin sans', sans-serif;
-    margin-left: 225px;
+    margin-left: 340px;
+    font-family: 'Open Sans', sans-serif;
 }
 
 .navbar-nav>.nav-item {
@@ -319,7 +319,8 @@
     margin-bottom: 40px;
 }
 
-.card>img {
+
+/* .card>img {
     width: 516px;
 }
 
@@ -327,7 +328,7 @@
     margin-left: 102px;
     width: 554px;
     height: 531px;
-}
+} */
 
 .ml-0 {
     margin-left: 250px !important;
@@ -361,4 +362,25 @@
 p>button:focus {
     outline: none;
     outline: none;
+}
+
+h5.text {
+    padding-left: 24px;
+}
+
+.ml-1:hover {
+    background: linear-gradient(to left, #000000 65%, white 35%);
+    color: white;
+}
+
+.text-center .btn {
+    margin-right: 179px;
+    margin-top: 20px;
+    margin-bottom: 100px;
+}
+
+.testimonial-section .card {
+    width: 370px;
+    height: 358px;
+    margin-left: 100px;
 }
